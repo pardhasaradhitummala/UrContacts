@@ -1,0 +1,47 @@
+.container {
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arizonia', cursive;
+    font-size: 500%;
+    color: #2B3582;
+    margin-top: 30px;
+}
+
+.loginform {
+    padding: 50px;
+    margin-top: 25px;
+}
+
+a {
+    color: #2B3582;
+}
+
+p {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.form-control:focus {
+    border-color: #1E1E5C;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1E1E5C;
+    border-color: #1E1E5C;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #D2429E;
+    border-color: #D2429E;
+    /*set the color you want here*/
+}
